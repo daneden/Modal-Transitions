@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FDC6BE44-21C4-4992-8DA7-51B61F96D77F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>modalTransitions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4DCE14CBC62A5CD7BACB0A543FD5E4FE7C27C94</key>
+		<string>github.com:daneden/Modal-Transitions.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>modalTransitions.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4DCE14CBC62A5CD7BACB0A543FD5E4FE7C27C94</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:daneden/Modal-Transitions.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4DCE14CBC62A5CD7BACB0A543FD5E4FE7C27C94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4DCE14CBC62A5CD7BACB0A543FD5E4FE7C27C94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Modal-Transitions</string>
+		</dict>
+	</array>
+</dict>
+</plist>

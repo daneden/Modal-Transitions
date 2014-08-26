@@ -14,6 +14,12 @@ class SecondViewController: ViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        view.layer.cornerRadius = 6
+        view.layer.shadowColor = UIColor.blackColor().CGColor
+        view.layer.shadowOpacity = 0.5
+        view.layer.shadowOffset = CGSizeMake(0, 10)
+        view.layer.shadowRadius = 10
     }
 
     override func didReceiveMemoryWarning() {

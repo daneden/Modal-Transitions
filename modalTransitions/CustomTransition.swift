@@ -40,23 +40,30 @@ class CustomTransition: NSObject, UIViewControllerTransitioningDelegate, UIViewC
             UIView.animateWithDuration(duration,
                 delay: 0,
                 usingSpringWithDamping: 0.6,
-                initialSpringVelocity: 10,
+                initialSpringVelocity: 2,
                 options: nil,
                 animations: {
-                    fromViewController.view.alpha = 0.3
+                    
+                    UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+
+                    fromViewController.view.alpha = 0.4
+                    
                     toViewController.view.alpha = 1
-                    toViewController.view.transform = CGAffineTransformMakeScale(0.8, 0.8)
+                    toViewController.view.transform = CGAffineTransformMakeScale(0.9, 0.9)
                 }) { (finished: Bool) -> Void in
                     transitionContext.completeTransition(true)
             }
 
         } else {
-            UIView.animateWithDuration(duration, animations: {
+            
+            UIView.animateWithDuration(duration/1.5,
+                delay: 0,
+                options: UIViewAnimationOptions.CurveEaseIn,
+                animations: {
                 
-                toViewController.view.alpha = 1
-                var transform = CGAffineTransformMakeScale(0, -20)
-                fromViewController.view.transform = CGAffineTransformConcat(fromViewController.view.transform, transform)
-                fromViewController.view.alpha = 0
+                    UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.Default, animated: true)
+                    toViewController.view.alpha = 1
+                    fromViewController.view.frame.origin.y += toViewController.view.frame.height
                 
                 }, completion: { (finished: Bool) -> Void in
                     fromViewController.removeFromParentViewController()
