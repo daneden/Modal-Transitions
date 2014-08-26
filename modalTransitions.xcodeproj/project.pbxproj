@@ -12,6 +12,9 @@
 		715ADFEF19AC02B500436E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715ADFED19AC02B500436E01 /* Main.storyboard */; };
 		715ADFF119AC02B500436E01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715ADFF019AC02B500436E01 /* Images.xcassets */; };
 		715ADFFD19AC02B500436E01 /* modalTransitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715ADFFC19AC02B500436E01 /* modalTransitionsTests.swift */; };
+		715AE00719AC02DB00436E01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715AE00619AC02DB00436E01 /* FirstViewController.swift */; };
+		715AE00919AC02E800436E01 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715AE00819AC02E800436E01 /* SecondViewController.swift */; };
+		715AE00B19AC083C00436E01 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715AE00A19AC083C00436E01 /* CustomTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		715ADFF619AC02B500436E01 /* modalTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modalTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715ADFFB19AC02B500436E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		715ADFFC19AC02B500436E01 /* modalTransitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalTransitionsTests.swift; sourceTree = "<group>"; };
+		715AE00619AC02DB00436E01 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		715AE00819AC02E800436E01 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		715AE00A19AC083C00436E01 /* CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				715ADFED19AC02B500436E01 /* Main.storyboard */,
 				715ADFF019AC02B500436E01 /* Images.xcassets */,
 				715ADFE719AC02B500436E01 /* Supporting Files */,
+				715AE00619AC02DB00436E01 /* FirstViewController.swift */,
+				715AE00819AC02E800436E01 /* SecondViewController.swift */,
+				715AE00A19AC083C00436E01 /* CustomTransition.swift */,
 			);
 			path = modalTransitions;
 			sourceTree = "<group>";
@@ -208,6 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715AE00919AC02E800436E01 /* SecondViewController.swift in Sources */,
+				715AE00719AC02DB00436E01 /* FirstViewController.swift in Sources */,
+				715AE00B19AC083C00436E01 /* CustomTransition.swift in Sources */,
 				715ADFEC19AC02B500436E01 /* ViewController.swift in Sources */,
 				715ADFEA19AC02B500436E01 /* AppDelegate.swift in Sources */,
 			);
